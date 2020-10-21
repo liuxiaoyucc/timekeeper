@@ -1,0 +1,17 @@
+{
+	"name": "liuxiaoyucc/timekeeper",
+	"description": "php timekeeper",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "xyliu",
+			"email": "2199842341@qq.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+		  	"liuxiaoyucc\\timekeeper\\": "src/"
+		}
+	}
+}
