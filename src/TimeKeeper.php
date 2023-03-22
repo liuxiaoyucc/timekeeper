@@ -46,7 +46,7 @@ class TimeKeeper
 		if (!$this->startTime) {
 			return 0;
 		}
-		$this->endTime = $this->endTime ? $this->endTime : microtime(1);
+		$this->endTime = $this->endTime ?: microtime(1);
 		return $this->consume = bcsub($this->endTime, $this->startTime, 10) * 1000;
 	}
 }
